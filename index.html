@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <title>Línea del tiempo de la Inteligencia Artificial</title> 
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <style>
+    .jumbotron {
+      background-color: #D4E8E8;
+      color: #ffffff;
+      padding: 100px 25px;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .container-fluid {
+      padding: 40px 50px;
+    }
+
+    .bg-grey {
+      background-color:  #93b1bf;
+    }
+
+    .timeline {
+      list-style-type: none;
+      padding: 0;
+      position: relative;
+    }
+
+    .timeline:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background-color: #ccc;
+      left: 50%;
+      margin-left: -1px;
+    }
+
+    .timeline-item {
+      margin-bottom: 50px;
+      position: relative;
+    }
+
+    .timeline-item:before,
+    .timeline-item:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .timeline-item .timeline-content {
+      width: 45%;
+      float: left;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      position: relative;
+    }
+
+    .timeline-item .timeline-content:before {
+      position: absolute;
+      right: 100%;
+      top: 20px;
+      content: " ";
+      height: 0;
+      width: 0;
+      border: 10px solid transparent;
+      border-right-color: #f5f5f5;
+    }
+
+    .timeline-item .timeline-content:after {
+      position: absolute;
+      left: 100%;
+      top: 20px;
+      content: " ";
+      height: 0;
+      width: 0;
+      border: 10px solid transparent;
+      border-left-color: #f5f5f5;
+    }
+
+    .timeline-item .timeline-year {
+      display: inline-block;
+      width: 100px;
+      font-weight: bold;
+      font-size: 16px;
+      padding-right: 10px;
+      border-right: 2px solid #ccc;
+      margin-bottom: 10px;
+    }
+
+    .timeline-item img {
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="jumbotron">   
+      <h1>Línea del tiempo de la Inteligencia Artificial</h1>
+        <p>Proceso de la IA</p>
+    </div>
+  </header>
+
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+
+    <ul class="timeline">
+      <li class="timeline-item">
+        <div class="timeline-year">1943</div>
+        <div class="timeline-content">Creación del primer modelo matemático neuronal artificial creado por Warren McCulloch y Walter Pitts.</div>
+        <img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/14210058/image/d6b7292798ba4da2f99ebb0b02181fd5" alt="1943">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">1950</div>
+        <div class="timeline-content">Publicación del artículo "Computing Machinery and Intelligence" proponiendo el famoso "test de Turing" para evaluar la capacidad de una máquina para exhibir un comportamiento inteligente.</div>
+        <img src="https://webdiag547.blob.core.windows.net/live/images%2Fbooks%2F103129.jpg?sv=2020-04-08&st=2023-07-09T09%3A22%3A46Z&se=2028-07-09T09%3A27%3A46Z&sr=c&sp=r&sig=uopx0fAAB7jFt%2BqEFT3CdVgGPOps2NMDBu2pgNzkpg8%3D" alt="1950">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">1956</div>
+        <div class="timeline-content">John McCarthy acuñó el término "inteligencia artificial" y organizó la conferencia de Dartmouth siendo considerada como el punto de partida de la IA.</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnNZ8eAq1PdtqKX0xmXcjgPlukt-6IDnklbv6NtQtH9g&s" alt="1956">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">1957</div>
+        <div class="timeline-content">Se inventa el perceptrón, un modelo de aprendizaje automático que sienta las bases de las redes neuronales por Frank Rosenblatt.</div>
+        <img src="https://news.cornell.edu/sites/default/files/styles/story_thumbnail_xlarge/public/2019-09/0925_rosenblatt_main.jpg?itok=SE0aS7ds" alt="1957">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">1966</div>
+        <div class="timeline-content">Joseph Wezenbaum desarrolla el programa Eliza simulando un terapeuta convencional.</div>
+        <img src="http://deixilabs.com/images/eliza-1.png" alt="1966">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">1974</div>
+        <div class="timeline-content">Publicación del libro "Steps Toward Artificial Intelligence" de Marvin Minsky.</div>
+        <img src="https://imagenes.elpais.com/resizer/5NrvbCK3jPV1C1A6b8VQ0x3TwMk=/1200x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/DPVAOR4Z2AKJNXSUDIKEUKQC5I.jpg" alt="1974" width="150">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">1980</div>
+        <div class="timeline-content">Desarrollo del sistema experto MYCIN el cual es capaz de diagnosticar enfermedades.</div>
+        <img src="https://image.slidesharecdn.com/mycinexpertsystem-130420072353-phpapp01/75/introduction-to-mycin-expert-system-1-2048.jpg?cb=1666368207" alt="1980">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">1997</div>
+        <div class="timeline-content">Deep Blue (IA) derrotó al campeón mundial de ajedrez Garry Kasparov, demostrando la capacidad de la IA para vencer a los mejores jugadores, incluso si son humanos.</div>
+        <img src="https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/02/09/602292e3a022c.r_d.179-30-0.jpeg" alt="1997">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">2011</div>
+        <div class="timeline-content">IBM Watson gana el concurso de preguntas y respuestas Jeopardy, demostrando un avance en el lenguaje natural y comprensión.</div>
+        <img src="https://estaticos-cdn.elperiodico.com/clip/cb701ccc-5ea4-4b7a-822c-5a5d903cf8c1_alta-libre-aspect-ratio_default_0.jpg" alt="2011">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">2012</div>
+        <div class="timeline-content">Se produce un avance en el campo del aprendizaje desarrollando las redes neuronales convolucionales por Geoffrey Hinton y su equipo permitiendo grandes avances en la visión por la computadora.</div>
+        <img src="https://imagenes.elpais.com/resizer/4GIcV4akMF6b0H8hvONqhKwul1g=/1200x675/cloudfront-eu-central-1.images.arcpublishing.com/prisa/3GNTBMGSYRAAPJKLKQJKJ7KENY.jpg" alt="2012">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">2014</div>
+        <div class="timeline-content">Google DeepMind desarrolla AlphaGo, un programa de inteligencia artificial capaz de derrotar al campeón mundial de Go, un juego de estrategia extremadamente complejo.</div>
+        <img src="https://estaticos-cdn.elperiodico.com/clip/cb701ccc-5ea4-4b7a-822c-5a5d903cf8c1_alta-libre-aspect-ratio_default_0.jpg" alt="2014">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">2016</div>
+        <div class="timeline-content">AlphaGo logra derrotar al campeón mundial de Go en una serie de partidas logrando superar expertos humanos en juegos complejos.</div>
+        <img src="https://i.blogs.es/61d920/kejie-2/1366_2000.jpg" alt="2016">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">2017</div>
+        <div class="timeline-content">Los sistemas de IA están basados en el aprendizaje profundo como en las redes generativas adversariales logrando avances en la generación de imágenes y procesamiento de voz y texto.</div>
+        <img src="https://ordenadores-y-portatiles.com/wp-content/uploads/2020/06/reconocimiento-de-voz.jpeg" alt="2017">
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-year">2020</div>
+        <div class="timeline-content">El modelo de lenguaje basado en transformadores desarrollado por OpenAI se convierte en uno de los mayores hitos en procedimiento.</div>
+        <img src="https://www.enriquedans.com/wp-content/uploads/2023/01/OpenAI-logo.jpg" alt="2020">
+      </li>
+    </ul>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
